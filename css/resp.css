@@ -1,0 +1,61 @@
+@media only screen and (max-width: 992px){
+    .nav-list{
+        display: none !important;
+    }
+    .togg-btn{
+        display: block;
+    }
+    .home-slider-container .slider-content.slick-center .home-banner-content:nth-child(2){
+        width: clamp(115px, 5vw, 399px);
+    }
+    .haj-img-holder img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .crime-img-holder{
+        min-height: auto;
+        height: auto;
+    }
+}
+@media only screen and (max-width:680px){
+    .home-slider {
+        top: 0;
+        z-index: 1;
+    }
+    
+    .main-header {
+        top: 0;
+        width: 100%;
+    }
+    .slider-img-holder {
+        height: 300px;
+    }
+    
+    .slider-img-holder picture {
+        height: 100%;
+    }
+    
+    .slider-img-holder picture img {
+        height: 100%;
+        object-fit: cover;
+        object-position: right;
+    }
+    section.packages{
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width:580px){ 
+    .form-container .field-row {
+        display: block !important;
+        padding: 0 !important;
+    }
+    .form-container .field-row .field-box {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
